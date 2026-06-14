@@ -31,6 +31,12 @@ export default function HexapodaSite() {
       question: 'Como os insetos respiram?',
       options: ['Pulmões', 'Brânquias', 'Sistema traqueal'],
       correct: 'Sistema traqueal'
+    },
+    {
+      id: 5,
+      question: 'Como é o nome do "coração" dos hexápodes?',
+      options: ['Coração tubular', 'sistema ambulacrário ', 'vaso dorsal'],
+      correct: 'Coração tubular'
     }
   ];
 
@@ -40,7 +46,7 @@ export default function HexapodaSite() {
       content: (
         <div className="space-y-6">
           <div className="bg-gradient-to-r from-green-50 to-emerald-50 border-l-4 border-green-600 p-6 rounded-lg">
-            <h2 className="text-2xl font-bold text-green-900 mb-3">O que são Hexápodes?</h2>
+            <h2 className="text-2xl font-bold text-green-900 mb-3"> Pera aí, o que são hexápodes mesmo?</h2>
             <p className="text-green-800 mb-3">
               Os Hexápodes pertencem ao filo <strong>Arthropoda</strong> e representam o grupo animal com maior número de espécies conhecidas.
             </p>
@@ -48,22 +54,30 @@ export default function HexapodaSite() {
               Seu nome deriva do grego: <strong>Hexa</strong> (seis) + <strong>Poda</strong> (pés ou patas)
             </p>
             <p className="text-green-800">
-              Os insetos representam o grupo de animais mais diversos do planeta, presentes em praticamente todos os ambientes terrestres.
+              Os hexápodas possui dois grupos principais:
+              Entognatas: Que são muito pequenos e vivem no solo, muito raros de ver. Ex: Collembola(cauda-de-mola)
+              Insetos: Que são os mais conhecidos,alguns possuem asas e vivem em diversos ambientes. Ex: Formigas, abelhas, borboletas, etc.
+            </p>
+            <p className="text-green-800">
+              Neste site, vamos explorar o fascinante mundo dos Hexapodas, que representam o grupo de animais mais diversos do planeta, presentes em praticamente todos os ambientes terrestres.
+              Mas afinal, o que torna os hexápodes tão especiais? Vamos descobrir juntos!
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-white border border-green-200 p-5 rounded-lg hover:shadow-lg transition">
-              <h3 className="font-bold text-green-900 mb-2">🔬 Características Principais</h3>
+              <h3 className="font-bold text-green-900 mb-2">Características Principais</h3>
               <ul className="text-sm text-gray-700 space-y-1">
-                <li>✓ Corpo em cabeça, tórax e abdome</li>
-                <li>✓ Três pares de patas</li>
-                <li>✓ Um par de antenas</li>
-                <li>✓ Exoesqueleto de quitina</li>
+                <li>Corpo em cabeça, tórax e abdômen;</li>
+                <li>Três pares de patas;</li>
+                <li>Um par de antenas;</li>
+                <li>Exoesqueleto de quitina;</li>
+                <li>Sistema respiratório traqueal;</li>
+                <li>Crescimento por mudas (ecdise).</li>
               </ul>
             </div>
             <div className="bg-white border border-emerald-200 p-5 rounded-lg hover:shadow-lg transition">
-              <h3 className="font-bold text-emerald-900 mb-2">🌍 Distribuição Global</h3>
+              <h3 className="font-bold text-emerald-900 mb-2">Distribuição Global</h3>
               <p className="text-sm text-gray-700">
                 Graças às suas características especializadas, os hexápodes conseguiram ocupar praticamente todos os ambientes terrestres do planeta, sendo fundamentais para a manutenção dos ecossistemas.
               </p>
@@ -72,22 +86,29 @@ export default function HexapodaSite() {
 
           <div className="bg-amber-50 border border-amber-200 p-4 rounded-lg">
             <p className="text-amber-900">
-              <strong>📊 Curiosidade:</strong> Os insetos representam mais da metade de todas as espécies animais conhecidas no planeta. Mais de um milhão de espécies já foram descritas pela ciência!
+              <strong> Afinal, por que os Insetos têm Tanto Sucesso? </strong> 
+              Asas: Conseguem voar e se deslocar facilmente 
+              Exoesqueleto impermeável que protege da desidratação;
+              Tamanho pequeno ocupam espaços que outros animais não conseguem;
+              Peças bucais especializadas cada inseto está adaptado para comer algo diferente;
+              Metamorfose com larvas e adultos vivem separados, sem competição.
             </p>
           </div>
         </div>
-      )
-    },
+      ),
+
+    },   
 
     anatomia: {
-      title: 'Anatomia Básica dos Insetos',
+      title: 'Anatomia Básica dos Hexápodes',
       content: (
         <div className="space-y-6">
           <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
             <h3 className="text-xl font-bold text-blue-900 mb-3">Estrutura do Corpo</h3>
             <p className="text-blue-800">
-              O corpo dos insetos é dividido em três regiões principais, cada uma com funções específicas para a sobrevivência e movimentação do animal.
+              O corpo dos hexápodes é dividido em três regiões principais, cada uma com funções específicas para a sobrevivência e movimentação do animal.
             </p>
+
           </div>
 
           <div className="space-y-4">
@@ -95,9 +116,9 @@ export default function HexapodaSite() {
               <h4 className="font-bold text-blue-900 text-lg mb-3">Cabeça</h4>
               <p className="text-gray-700 mb-3">Abriga estruturas importantes para a sobrevivência do animal:</p>
               <ul className="space-y-2 text-gray-700">
-                <li><strong>🎯 Antenas:</strong> Desempenham funções de tato, olfato e percepção do ambiente</li>
-                <li><strong>👁️ Olhos Compostos:</strong> Formados por milhares de unidades chamadas omatídios, permitindo ampla percepção visual</li>
-                <li><strong>👄 Peças Bucais:</strong> Estruturas especializadas para alimentação</li>
+                <li><strong>Antenas:</strong> Desempenham funções de tato, olfato e percepção do ambiente</li>
+                <li><strong>Olhos Compostos:</strong> Formados por milhares de unidades chamadas omatídios, permitindo ampla percepção visual</li>
+                <li><strong>Peças Bucais:</strong> Estruturas especializadas para alimentação</li>
               </ul>
             </div>
 
@@ -105,9 +126,9 @@ export default function HexapodaSite() {
               <h4 className="font-bold text-emerald-900 text-lg mb-3">Tórax</h4>
               <p className="text-gray-700 mb-3">Responsável pela locomoção do animal:</p>
               <ul className="space-y-2 text-gray-700">
-                <li><strong>🦵 Três pares de patas:</strong> Estruturas locomotoras</li>
-                <li><strong>🪶 Um ou dois pares de asas:</strong> Quando presentes, estruturas de voo</li>
-                <li><strong>💪 Musculatura:</strong> Concentra a musculatura responsável pelos movimentos</li>
+                <li><strong>Três pares de patas:</strong> Estruturas locomotoras</li>
+                <li><strong>Um ou dois pares de asas:</strong> Quando presentes, estruturas de voo</li>
+                <li><strong>Musculatura:</strong> Concentra a musculatura responsável pelos movimentos</li>
               </ul>
             </div>
 
@@ -115,15 +136,16 @@ export default function HexapodaSite() {
               <h4 className="font-bold text-rose-900 text-lg mb-3">Abdome</h4>
               <p className="text-gray-700 mb-3">Contém a maior parte dos órgãos internos:</p>
               <ul className="space-y-2 text-gray-700">
-                <li>🔄 Sistema digestório</li>
-                <li>🧬 Sistema reprodutor</li>
-                <li>♻️ Sistema excretor</li>
-                <li>💨 Parte do sistema respiratório</li>
+                <li>Sistema digestório</li>
+                <li>Sistema reprodutor</li>
+                <li>Sistema excretor</li>
+                <li>Parte do sistema respiratório</li>
               </ul>
             </div>
           </div>
         </div>
-      )
+      
+       )
     },
 
     respiracao: {
@@ -139,17 +161,17 @@ export default function HexapodaSite() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-white border border-purple-200 p-4 rounded-lg text-center">
-              <div className="text-3xl mb-2">💨</div>
+              <div className="text-3xl mb-2"></div>
               <h4 className="font-bold text-purple-900 mb-2">Espiráculos</h4>
               <p className="text-sm text-gray-700">Pequenas aberturas por onde o ar entra</p>
             </div>
             <div className="bg-white border border-purple-200 p-4 rounded-lg text-center">
-              <div className="text-3xl mb-2">🔀</div>
+              <div className="text-3xl mb-2"></div>
               <h4 className="font-bold text-purple-900 mb-2">Traqueias</h4>
               <p className="text-sm text-gray-700">Tubos que conduzem o ar pelo corpo</p>
             </div>
             <div className="bg-white border border-purple-200 p-4 rounded-lg text-center">
-              <div className="text-3xl mb-2">⚡</div>
+              <div className="text-3xl mb-2"></div>
               <h4 className="font-bold text-purple-900 mb-2">Traquéolas</h4>
               <p className="text-sm text-gray-700">Tubos microscópicos nos tecidos</p>
             </div>
@@ -157,14 +179,49 @@ export default function HexapodaSite() {
 
           <div className="bg-blue-50 border border-blue-200 p-5 rounded-lg">
             <p className="text-blue-900">
-              <strong>💡 Vantagem:</strong> Este sistema permite uma distribuição eficiente do oxigênio sem a necessidade de transporte pelo sangue, o que é muito mais eficiente que o sistema respiratório de vertebrados.
+              <strong>Quais as vantagens:</strong> Este sistema permite uma distribuição eficiente do oxigênio sem a necessidade de transporte pelo sangue, o que é muito mais eficiente que o sistema respiratório de vertebrados.
             </p>
           </div>
         </div>
       )
     },
+sistemas: {
+      title: 'Sistemas circulatório e nervoso dos Hexápodes',
+      content: (
+        <div className="space-y-6">
+          <div className="bg-purple-50 border-l-4 border-purple-600 p-6 rounded-lg">
+            <h3 className="text-xl font-bold text-purple-900 mb-3">Sistema circulatório </h3>
+            <p className="text-purple-800 mb-3">
+              Diferentemente dos seres humanos, os hexapodes <strong>não possuem um coração fechado</strong>. A hemolinfa circula livremente pela cavidade corporal (hemocele) e é bombeada pelo <strong>coração tubular dorsal</strong> que distribuem o hemolimfa pelo corpo, conectada ao <strong>sistema nervoso</strong>.
+            </p>
+            </div>
 
-    alimentacao: {
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="bg-white border border-purple-200 p-4 rounded-lg text-center">
+              <div className="text-3xl mb-2"></div>
+              <h4 className="font-bold text-purple-900 mb-2">Sistema excretor</h4>
+              <p className="text-sm text-gray-700">Responsável pela eliminação de resíduos metabólicos pelos <strong>túbulos de Malpigh</strong>, que eliminam  ácido úrico (insolúvel em água, adaptação à vida terrestre).<strong>Glândulas retais</strong>reabsorvem água, sais e íons que são fundamentais para o balanceamento hídrico</p>
+            </div>
+            <div className="bg-white border border-purple-200 p-4 rounded-lg text-center">
+              <div className="text-3xl mb-2"></div>
+              <h4 className="font-bold text-purple-900 mb-2">Sistema Nervoso</h4>
+              <p className="text-sm text-gray-700">Responsável pela coordenação dos movimentos e pela percepção de estímulos.<strong>Os orgãos dos sentidos</strong>, são constituidos por quimioreceptores, mecanorreceptores,olhos simples(ocelos) em alguns e olhos compostos em outros(omatídios) </p>
+            </div>
+            <div className="bg-white border border-purple-200 p-4 rounded-lg text-center">
+              <div className="text-3xl mb-2"></div>
+              <h4 className="font-bold text-purple-900 mb-2">Sistema Digestivo</h4>
+              <p className="text-sm text-gray-700">Responsável pela ingestão, digestão e eliminação de resíduos alimentares. Consiste em um tubo digestivo com diferentes seções specializadas.Possui um sistema digestivo completo.</p>
+              <p className="text-sm text-gray-700">
+                Estomodeu:Boca, glândulas salivares, papo, moela;
+                Mesênteron: Estômago, cecos gástricos local principal de digestão e absorção;
+                Proctodeu:Intestino, reto, ânus.</p>
+              <p className="text-sm text-gray-700"><strong>Curiosidade:</strong> O sistema digestivo dos hexápodes é altamente adaptável, permitindo que diferentes espécies se especializem em uma variedade de dietas, desde folhas e néctar até outros animais.</p>
+            </div>
+          </div>
+        </div>
+      )
+    },
+alimentacao: {
       title: 'Alimentação dos Hexápodes',
       content: (
         <div className="space-y-6">
@@ -174,27 +231,28 @@ export default function HexapodaSite() {
 
           <div className="space-y-4">
             <div className="bg-green-50 border-l-4 border-green-600 p-5 rounded-lg">
-              <h4 className="font-bold text-green-900 text-lg mb-2">🌿 Herbívoros</h4>
+              <h4 className="font-bold text-green-900 text-lg mb-2">Herbívoros</h4>
               <p className="text-gray-700 mb-3">Alimentam-se de folhas, flores, frutos ou seiva.</p>
               <p className="text-sm text-green-800"><strong>Exemplos:</strong> Gafanhotos, Lagartas, Pulgões</p>
             </div>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-5 rounded-lg">
-              <h4 className="font-bold text-red-900 text-lg mb-2">🦁 Predadores</h4>
+              <h4 className="font-bold text-red-900 text-lg mb-2">Predadores</h4>
               <p className="text-gray-700 mb-3">Capturam e consomem outros animais.</p>
               <p className="text-sm text-red-800"><strong>Exemplos:</strong> Libélulas, Louva-a-deus, Joaninhas</p>
             </div>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-5 rounded-lg">
-              <h4 className="font-bold text-amber-900 text-lg mb-2">♻️ Decompositores</h4>
+              <h4 className="font-bold text-amber-900 text-lg mb-2">Decompositores</h4>
               <p className="text-gray-700 mb-3">Participam da reciclagem da matéria orgânica.</p>
               <p className="text-sm text-amber-800"><strong>Exemplos:</strong> Alguns besouros, Larvas de moscas</p>
             </div>
 
             <div className="bg-orange-50 border-l-4 border-orange-600 p-5 rounded-lg">
-              <h4 className="font-bold text-orange-900 text-lg mb-2">⚠️ Parasitos e Vetores</h4>
+              <h4 className="font-bold text-orange-900 text-lg mb-2">Parasitos e Vetores</h4>
               <p className="text-gray-700 mb-3">Vivem associados a outros organismos.</p>
               <p className="text-sm text-orange-800"><strong>Exemplos:</strong> Piolhos, Pulgas, Mosquitos hematófagos</p>
+               <p className="text-sm text-orange-800"><strong>Sistema Digestivo:</strong> Possuem um sistema digestivo completo, com boca, esôfago, estômago e intestino, adaptado para processar os diferentes tipos de alimentos que consomem.</p>
             </div>
           </div>
         </div>
@@ -211,7 +269,7 @@ export default function HexapodaSite() {
 
           <div className="space-y-6">
             <div className="bg-indigo-50 border-l-4 border-indigo-600 p-6 rounded-lg">
-              <h4 className="font-bold text-indigo-900 text-xl mb-4">🔄 Metamorfose Incompleta</h4>
+              <h4 className="font-bold text-indigo-900 text-xl mb-4">Metamorfose Incompleta(Hemimetabola)</h4>
               <p className="text-gray-700 mb-4">
                 Nesse tipo de desenvolvimento, o jovem se parece com o adulto, mas em tamanho menor.
               </p>
@@ -223,7 +281,7 @@ export default function HexapodaSite() {
             </div>
 
             <div className="bg-violet-50 border-l-4 border-violet-600 p-6 rounded-lg">
-              <h4 className="font-bold text-violet-900 text-xl mb-4">🦋 Metamorfose Completa</h4>
+              <h4 className="font-bold text-violet-900 text-xl mb-4">Metamorfose Completa(Holometabola)</h4>
               <p className="text-gray-700 mb-4">
                 Nesse processo ocorre uma transformação profunda do organismo. É observado na maioria das espécies de insetos.
               </p>
@@ -232,12 +290,16 @@ export default function HexapodaSite() {
               </div>
               <p className="text-sm text-violet-800 font-semibold mb-2">Exemplos:</p>
               <p className="text-gray-700">Borboletas, Abelhas, Moscas, Besouros</p>
+              <h4 className="font-bold text-violet-900 text-xl mb-4">Metamorfose Ametábola (Direta)</h4>
+              <p className="text-gray-700 mb-4">Nesse tipo de desenvolvimento, o jovem se parece com o adulto, mas em tamanho menor e sem asas.</p>
+              <p className="text-sm text-indigo-800 font-semibold mb-2">Exemplos:</p>
+              <p className="text-gray-700">Traças.</p>
             </div>
           </div>
 
           <div className="bg-blue-50 border border-blue-200 p-4 rounded-lg">
             <p className="text-blue-900">
-              <strong>🌟 Curiosidade:</strong> Na metamorfose completa, a pupa é uma estrutura protetora dentro da qual ocorrem mudanças radicais. É como um "casulo" onde a larva se transforma completamente em um adulto.
+              <strong>Curiosidade:</strong> Na metamorfose completa, a pupa é uma estrutura protetora dentro da qual ocorrem mudanças radicais. É como um "casulo" onde a larva se transforma completamente em um adulto.
             </p>
           </div>
         </div>
@@ -245,7 +307,7 @@ export default function HexapodaSite() {
     },
 
     ecologia: {
-      title: 'Importância Ecológica dos Insetos',
+      title: 'Importância Ecológica dos Hexápodes',
       content: (
         <div className="space-y-6">
           <p className="text-gray-700 text-lg">
@@ -254,31 +316,31 @@ export default function HexapodaSite() {
 
           <div className="space-y-4">
             <div className="bg-pink-50 border-l-4 border-pink-600 p-5 rounded-lg">
-              <h4 className="font-bold text-pink-900 text-lg mb-2">🌸 Polinização</h4>
+              <h4 className="font-bold text-pink-900 text-lg mb-2">Polinização</h4>
               <p className="text-gray-700">
-                Abelhas, borboletas e outros insetos transportam grãos de pólen entre flores, permitindo a reprodução de inúmeras plantas. <strong>Grande parte dos alimentos que consumimos depende da ação desses polinizadores!</strong>
+                Abelhas, borboletas e outros hexápodes transportam grãos de pólen entre flores, permitindo a reprodução de inúmeras plantas. <strong>Grande parte dos alimentos que consumimos depende da ação desses polinizadores!</strong>
               </p>
             </div>
 
             <div className="bg-yellow-50 border-l-4 border-yellow-600 p-5 rounded-lg">
-              <h4 className="font-bold text-yellow-900 text-lg mb-2">♻️ Decomposição</h4>
+              <h4 className="font-bold text-yellow-900 text-lg mb-2">Decomposição</h4>
               <p className="text-gray-700">
-                Muitos insetos participam da decomposição de matéria orgânica, contribuindo para a reciclagem de nutrientes nos solos e ecossistemas.
+                Muitos hexápodes participam da decomposição de matéria orgânica, contribuindo para a reciclagem de nutrientes nos solos e ecossistemas.
               </p>
             </div>
 
             <div className="bg-green-50 border-l-4 border-green-600 p-5 rounded-lg">
-              <h4 className="font-bold text-green-900 text-lg mb-2">🛡️ Controle Biológico</h4>
+              <h4 className="font-bold text-green-900 text-lg mb-2">Controle Biológico</h4>
               <p className="text-gray-700 mb-2">
-                Diversos insetos atuam como predadores naturais de organismos considerados pragas agrícolas.
+                Diversos hexápodes atuam como predadores naturais de organismos considerados pragas agrícolas.
               </p>
               <p className="text-sm text-green-800"><strong>Exemplo:</strong> Joaninhas alimentam-se de pulgões</p>
             </div>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-5 rounded-lg">
-              <h4 className="font-bold text-blue-900 text-lg mb-2">🔗 Cadeias Alimentares</h4>
+              <h4 className="font-bold text-blue-900 text-lg mb-2">Cadeias Alimentares</h4>
               <p className="text-gray-700">
-                Os insetos servem de alimento para aves, répteis, anfíbios, mamíferos e outros invertebrados, sendo <strong>fundamentais para o equilíbrio ecológico</strong>.
+                Os hexápodes servem de alimento para aves, répteis, anfíbios, mamíferos e outros invertebrados, sendo <strong>fundamentais para o equilíbrio ecológico</strong>.
               </p>
             </div>
           </div>
@@ -292,15 +354,15 @@ export default function HexapodaSite() {
         <div className="space-y-6">
           <div className="bg-orange-50 border-l-4 border-orange-600 p-6 rounded-lg">
             <h3 className="text-xl font-bold text-orange-900 mb-3">
-              ⚠️ Importância na Saúde Pública
+              Importância na Saúde Pública
             </h3>
             <p className="text-orange-800">
-              Embora a maioria dos insetos seja benéfica, algumas espécies podem transmitir doenças graves aos seres humanos.
+              Embora a maioria dos hexápodes seja benéfica, algumas espécies podem transmitir doenças graves aos seres humanos.
             </p>
           </div>
 
           <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-lg">
-            <h4 className="font-bold text-red-900 text-lg mb-3">🦟 Aedes aegypti</h4>
+            <h4 className="font-bold text-red-900 text-lg mb-3">Aedes aegypti</h4>
             <div className="mb-4">
               <p className="text-sm text-red-800 font-semibold mb-2">Doenças transmitidas:</p>
               <ul className="space-y-1 text-gray-700">
@@ -313,16 +375,16 @@ export default function HexapodaSite() {
             <div>
               <p className="text-sm text-red-800 font-semibold mb-2">Como prevenir?</p>
               <ul className="space-y-1 text-gray-700">
-                <li>✔️ Eliminar água parada</li>
-                <li>✔️ Manter caixas d'água fechadas</li>
-                <li>✔️ Limpar recipientes que possam acumular água</li>
+                <li>Eliminar água parada</li>
+                <li>Manter caixas d'água fechadas</li>
+                <li>Limpar recipientes que possam acumular água</li>
               </ul>
             </div>
           </div>
 
           <div className="bg-blue-50 border border-blue-200 p-4 rounded-lg">
             <p className="text-blue-900">
-              <strong>💡 Lembrete:</strong> A prevenção é sempre o melhor caminho. Manter ambientes limpos e sem água parada é a forma mais eficaz de evitar doenças transmitidas por esses insetos.
+              <strong>Lembrete:</strong> A prevenção é sempre o melhor caminho. Manter ambientes limpos e sem água parada é a forma mais eficaz de evitar doenças transmitidas por esses insetos.
             </p>
           </div>
         </div>
@@ -335,25 +397,25 @@ export default function HexapodaSite() {
         <div className="space-y-4">
           <div className="bg-gradient-to-r from-purple-50 to-pink-50 border-l-4 border-purple-600 p-5 rounded-lg">
             <p className="text-gray-800 mb-2">
-              <strong>🐜 Formigas super fortes:</strong> Algumas formigas conseguem carregar objetos várias vezes mais pesados que seu próprio corpo. Elas são verdadeiras atletas do reino animal!
+              <strong>Formigas super fortes:</strong> Algumas formigas conseguem carregar objetos várias vezes mais pesados que seu próprio corpo. Elas são verdadeiras atletas do reino animal!
             </p>
           </div>
 
           <div className="bg-gradient-to-r from-blue-50 to-cyan-50 border-l-4 border-blue-600 p-5 rounded-lg">
             <p className="text-gray-800 mb-2">
-              <strong>🦋 Asas especiais:</strong> As asas das borboletas são cobertas por milhares de escamas microscópicas que criam suas cores vibrantes e padrões únicos.
+              <strong>Asas especiais:</strong> As asas das borboletas são cobertas por milhares de escamas microscópicas que criam suas cores vibrantes e padrões únicos.
             </p>
           </div>
 
           <div className="bg-gradient-to-r from-yellow-50 to-amber-50 border-l-4 border-yellow-600 p-5 rounded-lg">
             <p className="text-gray-800 mb-2">
-              <strong>🐝 Visão especial:</strong> As abelhas conseguem perceber padrões ultravioleta invisíveis aos seres humanos, ajudando-as a localizar flores.
+              <strong>Visão especial:</strong> As abelhas conseguem perceber padrões ultravioleta invisíveis aos seres humanos, ajudando-as a localizar flores.
             </p>
           </div>
 
           <div className="bg-gradient-to-r from-green-50 to-emerald-50 border-l-4 border-green-600 p-5 rounded-lg">
             <p className="text-gray-800">
-              <strong>📊 Diversidade extrema:</strong> Mais de um milhão de espécies de insetos já foram descritas pela ciência, e estima-se que ainda existam muitas espécies desconhecidas!
+              <strong>Diversidade extrema:</strong> Mais de um milhão de espécies de insetos já foram descritas pela ciência, e estima-se que ainda existam muitas espécies desconhecidas!
             </p>
           </div>
         </div>
@@ -446,7 +508,9 @@ export default function HexapodaSite() {
               </div>
               <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded">
                 <p className="text-blue-900 font-semibold">
-                  {Object.values(quizAnswers).filter((v, i) => v === quizQuestions[i].correct).length} de {quizQuestions.length} respostas corretas
+                  {quizQuestions.filter(
+                    q => quizAnswers[q.id] === q.correct
+                  ).length} de {quizQuestions.length} respostas corretas
                 </p>
               </div>
             </div>
@@ -460,6 +524,7 @@ export default function HexapodaSite() {
     { id: 'home', label: 'Início' },
     { id: 'anatomia', label: 'Anatomia' },
     { id: 'respiracao', label: 'Respiração' },
+    { id: 'sistemas', label: 'Sistemas' },
     { id: 'alimentacao', label: 'Alimentação' },
     { id: 'metamorfose', label: 'Metamorfose' },
     { id: 'ecologia', label: 'Ecologia' },
