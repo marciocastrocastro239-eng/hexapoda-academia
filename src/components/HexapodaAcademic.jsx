@@ -159,7 +159,7 @@ export default function HexapodaAcademic() {
             <h3 className="text-xl font-bold text-gray-900">Grupos Principais</h3>
             <div className="bg-white border border-gray-300 p-6 rounded-lg">
               <h4 className="font-bold text-lg text-blue-900 mb-3">1. Entognatas</h4>
-              <p className="text-gray-700 mb-3">Pequenos artrópodes do solo, com bucas internas (entognatas = "boca interna")</p>
+              <p className="text-gray-700 mb-3">Pequenos artrópodes do solo, com bocas internas (entognatas = "boca interna")</p>
               <div className="bg-blue-50 p-4 rounded mb-4 text-sm text-gray-700">
                 <p className="font-semibold mb-2">Características:</p>
                 <ul className="list-disc list-inside space-y-1">
@@ -1029,10 +1029,10 @@ export default function HexapodaAcademic() {
           <div className="bg-amber-50 border border-amber-300 p-6 rounded-lg">
             <h4 className="font-bold text-amber-900 mb-3">📝 Notas Adicionais</h4>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><strong>Curso:</strong> Zoologia de Invertebrados - Ensino Médio</li>
+              <li><strong>Curso:</strong> Lic. Ciências Biologica. </li>
               <li><strong>Alinhamento Curricular:</strong> BNCC - Biologia (Ciências da Natureza)</li>
-              <li><strong>Última atualização:</strong> 2024</li>
-              <li><strong>Revisor:</strong> Marcio (Universidade Federal do Piauí)</li>
+              <li><strong>Última atualização:</strong> 2026</li>
+              <li><strong>Revisor:</strong> Marcio Castro. (Universidade Federal do Piauí)</li>
             </ul>
           </div>
         </div>
