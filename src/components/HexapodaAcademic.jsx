@@ -1032,7 +1032,7 @@ export default function HexapodaAcademic() {
               <li><strong>Curso:</strong> Lic. Ciências Biologica. </li>
               <li><strong>Alinhamento Curricular:</strong> BNCC - Biologia (Ciências da Natureza)</li>
               <li><strong>Última atualização:</strong> 2026</li>
-              <li><strong>Revisor:</strong> Marcio Castro. (Universidade Federal do Piauí)</li>
+              <li><strong>Revisor:</strong> Discentes da Universidade Federal do Piauí</li>
             </ul>
           </div>
         </div>
