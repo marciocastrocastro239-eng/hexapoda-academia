@@ -144,11 +144,11 @@ export default function HexapodaAcademic() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-white p-4 rounded border border-amber-200">
-                <p className="font-mono font-semibold text-amber-900">Hexa (ἕξα)</p>
+                <p className="font-mono font-semibold text-amber-900">Hexa</p>
                 <p className="text-sm text-gray-700">= Seis</p>
               </div>
               <div className="bg-white p-4 rounded border border-amber-200">
-                <p className="font-mono font-semibold text-amber-900">Poda (πόδα)</p>
+                <p className="font-mono font-semibold text-amber-900">Poda</p>
                 <p className="text-sm text-gray-700">= Pés ou patas</p>
               </div>
             </div>
