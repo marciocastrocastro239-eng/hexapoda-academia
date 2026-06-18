@@ -747,7 +747,7 @@ export default function HexapodaAcademic() {
             {/* AEDES */}
             <div className="bg-white border border-red-300 p-6 rounded-lg">
               <h4 className="font-bold text-red-900 text-lg mb-3 flex items-center gap-2">
-                🦟 Aedes aegypti
+                  Aedes aegypti
               </h4>
               <p className="text-gray-700 mb-4">Mosquito urbano, antropofílico, altamente adaptado a ambientes urbanos.</p>
 
@@ -803,7 +803,7 @@ export default function HexapodaAcademic() {
 
             {/* PRAGAS AGRÍCOLAS */}
             <div className="bg-white border border-yellow-300 p-6 rounded-lg">
-              <h4 className="font-bold text-yellow-900 text-lg mb-3">🌾 Pragas Agrícolas</h4>
+              <h4 className="font-bold text-yellow-900 text-lg mb-3"> Pragas Agrícolas</h4>
               <p className="text-gray-700 mb-4">Insetos fitófagos causam perdas anuais de bilhões em colheitas globais.</p>
 
               <div className="bg-yellow-50 p-4 rounded border-l-4 border-yellow-600 text-sm text-gray-700">
