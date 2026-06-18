@@ -18,24 +18,6 @@ export default function HexapodaAcademic() {
       local: 'Rio de Janeiro',
       editora: 'Guanabara Koogan',
       ano: 2016
-    },
-    {
-      id: 2,
-      autores: 'RAVEN, P. H.; EVERT, R. F.; EICHHORN, S. E.',
-      titulo: 'Biologia Vegetal',
-      edicao: '7. ed.',
-      local: 'Rio de Janeiro',
-      editora: 'Guanabara Koogan',
-      ano: 2007
-    },
-    {
-      id: 3,
-      autores: 'TAYLOR, W. K.',
-      titulo: 'The Insects of Australia: A textbook for students and research workers',
-      edicao: '2. ed.',
-      local: 'Melbourne',
-      editora: 'University Press',
-      ano: 1996
     }
   ];
 
